@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Red Thread of Fate</title>
+    <meta name="description" content="A Japanese red-thread love story connecting two hidden memories">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="seasons-theme">
+    <div class="seasons-container">
+        <h1 class="cursive-title">Our red thread of fate</h1>
+        <div class="emoji-row">💖 ✨ 💖</div>
+        <h2 class="subtitle">Bound by love, destiny, and time</h2>
+
+        <section class="string-challenge" aria-labelledby="string-challenge-title">
+            <h2 id="string-challenge-title" class="string-challenge-title">Connect our hearts</h2>
+            <p class="string-challenge-hint">Click the glowing heart between us until it meets both sides.</p>
+
+            <div class="string-stage" id="stringStage">
+                <div class="japanese-scene" aria-hidden="true"></div>
+                <svg class="love-string" aria-hidden="true">
+                    <path id="loveStringLeft" d=""></path>
+                    <path id="loveStringRight" d=""></path>
+                </svg>
+
+                <div class="photo-card photo-card-left" id="photoCardLeft">
+                    <div class="photo-cover">♡</div>
+                    <img src="images/Manooj.jpeg" alt="A hidden memory" class="secret-photo">
+                </div>
+
+                <button class="string-heart center-heart-button" id="heartStart" type="button" aria-label="Connect the red string">❤</button>
+
+                <div class="photo-card photo-card-right" id="photoCardRight">
+                    <div class="photo-cover">♡</div>
+                    <img src="images/Yedi.jpeg" alt="A hidden memory" class="secret-photo">
+                </div>
+            </div>
+        </section>
+
+        <div class="quotes-container locked-message" id="seasonMessage" aria-hidden="true">
+            <p class="quote-main">"No matter the distance, my heart always finds its way back to yours."</p>
+            <p class="quote-sub">The red thread may be hidden, but it has always led me home — to you.</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="memories.html" class="btn-back">⬅️ Back</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
